@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 def homepage():
 
-    return "Hi there, how ya doin?"
+    return "hello world!"
 
 
 
