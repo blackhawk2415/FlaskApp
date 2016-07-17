@@ -1,4 +1,4 @@
-from flask import Flask
+from flask import Flask, render_templates
 
 
 
@@ -9,7 +9,7 @@ app = Flask(__name__)
 
 def homepage():
 
-    return "hello world!"
+    return render_template("main.html")
 
 
 
